@@ -1,0 +1,60 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+form {
+  margin: 20px;
+}
+body {
+  margin: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.question {
+  width: 300px;
+  border-left: solid 4px;
+  border-color: grey  ;
+  padding-left: 10px;
+}
+
+.answer {
+  width: 300px;
+  border-left: solid 4px;
+  border-color: rgb(7, 140, 193)  ;
+  padding-left: 10px;
+  background-color: #fffee1 ;
+
+}
+
+input[type="submit"] {
+  // appearance: none;
+  // border-radius: 30%;
+  // width: 50px;
+  background-color: rgb(7, 140, 193);
+  border: 1px solid rgb(7, 140, 193);
+  padding: 5px 10px;
+  height: 34px;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  position: absolute;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+input[type="submit"]:hover {
+  background-color: #1EDD88;
+  border-color: #1EDD88;
+  cursor: pointer;
+}
+
+input[type="text" i] {
+  position: relative;
+  border: 1px solid white;
+  height: 30px;
+  width: 200px;
+  border-radius: 4px 0px 0px 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+input[type="text" i]:focus {
+  border: 1px solid #1EDD88;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
